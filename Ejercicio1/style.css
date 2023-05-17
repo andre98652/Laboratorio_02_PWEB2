@@ -15,6 +15,8 @@ body{
     height: 130px;
     width: 200px;
     border-radius: 15px;
+    padding: 15 px;
+
 }
 h1,p{
     color: white;
