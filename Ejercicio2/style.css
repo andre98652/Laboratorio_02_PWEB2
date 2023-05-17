@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    color: white;
+    margin-right: 15px;
+}
+p{
+    color: white;
+}
+
+.conteiner{
+    background: rgb(32, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.caja{
+    background: rgb(75, 67, 67);
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+
+}
+.boton{
+    background: rgba(61, 44, 41, 0.876);
+    color: white;
+    border-radius: 10px;
+}
+.cajaTexto{
+    background: rgba(61, 44, 41, 0.876);
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
