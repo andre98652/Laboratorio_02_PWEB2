@@ -1,0 +1,59 @@
+.tabla {
+    display: grid;
+    width: 50px;
+    grid-template-columns: auto;
+    /* Define una columna flexible */
+    grid-gap: 10px; /* Espacio entre las celdas */
+    border: 1px solid black;
+    padding: 10px;
+    background: rgb(40, 38, 49);;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white;
+    
+  }
+
+body{
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+.fondo1{
+    background: rgb(40, 38, 49);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.fondo2{
+    background: rgb(47, 47, 65);
+    border-radius: 15px;
+    padding: 30px;
+    
+}
+.cajaTexto{
+    background: rgb(40, 38, 49);;
+    color: white;
+    width: 100px;
+    height:20px;    
+    border-radius: 10px;
+}
+.boton1{
+    background: rgb(40, 38, 49);;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#calcular{
+    background: rgb(40, 38, 49);;
+    margin-top: 10px;
+    margin-left: 80px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+
+}
+
+ 
