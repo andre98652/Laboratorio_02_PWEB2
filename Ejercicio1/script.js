@@ -1,10 +1,10 @@
-const d=new Date();
-var dia=d.getDay();
+
 
 //const dias=["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"]
 
 //const p=document.getElementById("demo")
-
+const d=new Date();
+var dia=d.getDay();
 console.log(dia)
 var day=dias()
 document.getElementById("dia").innerHTML=day
